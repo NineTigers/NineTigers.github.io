@@ -7,6 +7,12 @@ Public policy and support pages for NineTigers apps.
 - Myonologic landing page: `https://ninetigers.github.io/myonologic/`
 - Myonologic privacy policy: `https://ninetigers.github.io/myonologic/privacy.html`
 - Myonologic support page: `https://ninetigers.github.io/myonologic/support.html`
+- Graeigeogi Arcade landing page: `https://ninetigers.github.io/graeigeogi-arcade/`
+- Graeigeogi Arcade privacy policy: `https://ninetigers.github.io/graeigeogi-arcade/privacy.html`
+- Graeigeogi Arcade support page: `https://ninetigers.github.io/graeigeogi-arcade/support.html`
+- Raid in Storia landing page: `https://ninetigers.github.io/raid-in-storia/`
+- Raid in Storia privacy policy: `https://ninetigers.github.io/raid-in-storia/privacy.html`
+- Raid in Storia support page: `https://ninetigers.github.io/raid-in-storia/support.html`
 
 ## Structure
 
@@ -14,6 +20,14 @@ Public policy and support pages for NineTigers apps.
 /
   index.html
   myonologic/
+    index.html
+    privacy.html
+    support.html
+  graeigeogi-arcade/
+    index.html
+    privacy.html
+    support.html
+  raid-in-storia/
     index.html
     privacy.html
     support.html
