@@ -10,6 +10,9 @@ Public policy and support pages for NineTigers apps.
 - Graeigeogi Arcade landing page: `https://ninetigers.github.io/graeigeogi-arcade/`
 - Graeigeogi Arcade privacy policy: `https://ninetigers.github.io/graeigeogi-arcade/privacy.html`
 - Graeigeogi Arcade support page: `https://ninetigers.github.io/graeigeogi-arcade/support.html`
+- Rabbit Blast landing page: `https://ninetigers.github.io/rabbit-blast/`
+- Rabbit Blast privacy policy: `https://ninetigers.github.io/rabbit-blast/privacy.html`
+- Rabbit Blast support page: `https://ninetigers.github.io/rabbit-blast/support.html`
 - Raid in Storia landing page: `https://ninetigers.github.io/raid-in-storia/`
 - Raid in Storia privacy policy: `https://ninetigers.github.io/raid-in-storia/privacy.html`
 - Raid in Storia support page: `https://ninetigers.github.io/raid-in-storia/support.html`
@@ -24,6 +27,10 @@ Public policy and support pages for NineTigers apps.
     privacy.html
     support.html
   graeigeogi-arcade/
+    index.html
+    privacy.html
+    support.html
+  rabbit-blast/
     index.html
     privacy.html
     support.html
