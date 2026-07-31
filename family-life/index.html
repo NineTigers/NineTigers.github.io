@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>가문일지</title>
+    <meta
+      name="description"
+      content="한 사람의 생애를 지켜보고 중요한 기로에서 선택하는 가족 인생 시뮬레이션"
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f3e8;
+        --panel: #fffdf7;
+        --text: #183d32;
+        --muted: #66756f;
+        --line: #dbe3dc;
+        --accent: #2f725d;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Segoe UI", sans-serif;
+        line-height: 1.7;
+      }
+      main { width: min(780px, calc(100% - 32px)); margin: 0 auto; padding: 64px 0; }
+      h1 { margin: 0; font-size: clamp(2.5rem, 10vw, 4.8rem); line-height: 1; }
+      h2 { margin-top: 36px; }
+      .eyebrow { color: var(--accent); font-weight: 800; }
+      .lead { max-width: 620px; font-size: 1.18rem; color: var(--muted); }
+      .card { margin-top: 32px; padding: 28px; background: var(--panel); border: 1px solid var(--line); border-radius: 22px; }
+      .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+      a { color: var(--accent); font-weight: 800; }
+      .links a { padding: 10px 14px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; background: white; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">한 사람의 첫 계절부터 다음 세대까지</p>
+      <h1>가문일지</h1>
+      <p class="lead">
+        인물이 스스로 살아가는 모습을 지켜보다가, 정말 중요한 기로에서만
+        선택하는 오프라인 가족 인생 시뮬레이션입니다.
+      </p>
+      <section class="card">
+        <h2>지원</h2>
+        <p>
+          문의와 오류 제보는
+          <a href="mailto:ygyim.biz@gmail.com">ygyim.biz@gmail.com</a>으로
+          보내 주세요.
+        </p>
+        <div class="links">
+          <a href="./privacy.html">개인정보처리방침</a>
+          <a href="./support.html">고객지원</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
