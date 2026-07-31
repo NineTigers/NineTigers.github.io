@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>스토리아: 유물배틀</title>
+  <meta
+    name="description"
+    content="유물을 배치하고 성장시켜 5분 안에 승부하는 전략 오토배틀러"
+  >
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: #f7ead0;
+      background:
+        radial-gradient(circle at 50% 12%, #263c5d 0, #101c2d 32%, #080d15 72%);
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+        "Noto Sans KR", "Segoe UI", sans-serif;
+    }
+    main { width: min(760px, 100%); margin: 0 auto; padding: 56px 22px 72px; }
+    header { text-align: center; }
+    .icon {
+      width: 180px;
+      height: 180px;
+      border: 3px solid #d9a84e;
+      border-radius: 38px;
+      box-shadow: 0 18px 50px #0009, 0 0 42px #d9a84e33;
+    }
+    h1 { margin: 26px 0 10px; font-size: clamp(36px, 8vw, 54px); line-height: 1.1; }
+    .tagline { margin: 0; color: #ffad2f; font-size: 19px; font-weight: 700; }
+    .summary { margin: 24px auto 0; max-width: 610px; color: #c6cfdd; font-size: 18px; line-height: 1.7; }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin: 38px 0;
+    }
+    .feature {
+      padding: 20px 12px;
+      border: 1px solid #344967;
+      border-radius: 18px;
+      background: #101c2ddb;
+      text-align: center;
+      font-weight: 700;
+    }
+    .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+    a {
+      padding: 13px 18px;
+      border: 1px solid #d9a84e;
+      border-radius: 999px;
+      color: #ffe3a8;
+      text-decoration: none;
+    }
+    footer { margin-top: 42px; color: #8794a8; text-align: center; font-size: 14px; }
+    @media (max-width: 560px) {
+      .features { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img class="icon" src="./app-icon.png" alt="스토리아: 유물배틀 앱 아이콘">
+      <h1>스토리아: 유물배틀</h1>
+      <p class="tagline">배치 · 성장 · 자동 전투</p>
+      <p class="summary">
+        가방 속 유물의 위치와 조합을 설계하고, 성장시킨 전력으로
+        세 번의 전투를 돌파하는 5분 완결형 전략 오토배틀러입니다.
+      </p>
+    </header>
+    <section class="features" aria-label="게임 특징">
+      <div class="feature">4×3 유물 배치</div>
+      <div class="feature">전투 사이 성장 선택</div>
+      <div class="feature">3전 완결 오토배틀</div>
+    </section>
+    <nav class="links" aria-label="지원 링크">
+      <a href="./privacy.html">개인정보처리방침</a>
+      <a href="./support.html">고객지원</a>
+      <a href="mailto:ygyim.biz@gmail.com">이메일 문의</a>
+    </nav>
+    <footer>© 2026 NineTigers</footer>
+  </main>
+</body>
+</html>

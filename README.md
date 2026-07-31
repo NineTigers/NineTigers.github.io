@@ -17,6 +17,9 @@ Public policy and support pages for NineTigers apps.
 - Raid in Storia privacy policy: `https://ninetigers.github.io/raid-in-storia/privacy.html`
 - Raid in Storia support page: `https://ninetigers.github.io/raid-in-storia/support.html`
 
+- Storia: Relic Battle privacy policy: `https://ninetigers.github.io/storia-relic-battle/privacy.html`
+- Storia: Relic Battle support page: `https://ninetigers.github.io/storia-relic-battle/support.html`
+
 ## Structure
 
 ```text
